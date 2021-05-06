@@ -1,0 +1,94 @@
+/*==================Global styling==================*/
+nav {
+    background: #d9ecf2;
+    padding: 5px;
+}
+
+.navbar-nav .nav-link {
+    color: #ff414d;
+}
+
+.navbar-toggler {
+    border: 1px solid #002d40;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #002d40;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    min-height: 60px;
+    line-height: 60px;
+    background: #d9ecf2;
+}
+
+footer .btn-outline-light, 
+footer h5 {
+    color: #ff414d;
+    border-color: #ff414d;
+}
+
+footer ul li a,
+footer .text-center {
+    color: #002d40;
+}
+
+footer ul li a:hover {
+    color: #f56a79;
+}
+
+/*==================Section styling==================*/
+.portfolio {
+    padding-top: 50px;
+}
+.portfolio-section {
+    padding-bottom: 30px;
+}
+
+/*==================Modal styling==================*/
+.item-title {
+    color: #fff;
+    background: #f56a79;
+    box-shadow: 3px 2px 3px black;
+}
+
+.portfolio-modal {
+    cursor: pointer;
+}
+
+.portfolio-img {
+    box-shadow: 3px 0px 3px black;
+    width: 100%;
+}
+
+#modal-button {
+    color: #fff;
+    background-color: #f56a79;
+    font-size: 14pt;
+}
+
+.modal-body {
+    color: #002d40;
+}
+
+.project-link {
+    background-color: #1aa6b7;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14pt;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+/*=======sections*/
+@media only screen and (min-width: 1025px) {
+    .portfolio #front-end .row .portfolio-modal:nth-of-type(2) .item-title,
+    .portfolio #front-end .row .portfolio-modal:nth-of-type(3) .item-title,
+    .portfolio #front-end .row .portfolio-modal:nth-of-type(4) .item-title {
+        height: 84%; line-height: 3;
+    }    
+}
