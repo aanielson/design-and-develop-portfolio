@@ -1,3 +1,4 @@
+/*==================Global styling==================*/
 nav {
     background: #d9ecf2;
     padding: 5px;
@@ -39,11 +40,12 @@ footer ul li a:hover {
     color: #f56a79;
 }
 
-/*=======sections*/
-.portfolio #front-end .row .portfolio-modal:nth-of-type(2) .item-title,
-.portfolio #front-end .row .portfolio-modal:nth-of-type(3) .item-title,
-.portfolio #front-end .row .portfolio-modal:nth-of-type(4) .item-title {
-    height: 84%; line-height: 3;
+/*==================Section styling==================*/
+.portfolio {
+    padding-top: 50px;
+}
+.portfolio-section {
+    padding-bottom: 30px;
 }
 
 /*==================Modal styling==================*/
@@ -80,4 +82,13 @@ footer ul li a:hover {
     margin-right: 10px;
     margin-left: 10px;
     text-align: center;
+}
+
+/*=======sections*/
+@media only screen and (min-width: 1025px) {
+    .portfolio #front-end .row .portfolio-modal:nth-of-type(2) .item-title,
+    .portfolio #front-end .row .portfolio-modal:nth-of-type(3) .item-title,
+    .portfolio #front-end .row .portfolio-modal:nth-of-type(4) .item-title {
+        height: 84%; line-height: 3;
+    }    
 }
