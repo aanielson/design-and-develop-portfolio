@@ -38,3 +38,39 @@ footer .text-center {
 footer ul li a:hover {
     color: #f56a79;
 }
+
+/*==================Modal styling==================*/
+.item-title {
+    color: #fff;
+    background: #f56a79;
+    box-shadow: 3px 2px 3px black;
+}
+
+.portfolio-modal {
+    cursor: pointer;
+}
+
+.portfolio-img {
+    box-shadow: 3px 0px 3px black;
+    width: 100%;
+}
+
+#modal-button {
+    color: #fff;
+    background-color: #f56a79;
+    font-size: 14pt;
+}
+
+.modal-body {
+    color: #002d40;
+}
+
+.project-link {
+    background-color: #1aa6b7;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14pt;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
